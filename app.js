@@ -33,9 +33,9 @@ function ktoCandF () {
 }
 
 function main() {
-    celciusInput.addEventListener('input',ctoFandK);
-    fahrenheitInput.addEventListener('input',ftoCandK);
-    kelvinInput.addEventListener('input', ktoCandF);
+    celciusInput.addEventListener('input',() => ctoFandK());
+    fahrenheitInput.addEventListener('input',() => ftoCandK());
+    kelvinInput.addEventListener('input',() => ktoCandF());
     
 }
 
