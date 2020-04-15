@@ -31,6 +31,12 @@ function ktoCandF () {
     celciusInput.value = roundNum(cTemp);
     fahrenheitInput.value = roundNum(fTemp);
 }
-celciusInput.addEventListener('input',ctoFandK);
-fahrenheitInput.addEventListener('input',ftoCandK);
-kelvinInput.addEventListener('input', ktoCandF);
+
+function main() {
+    celciusInput.addEventListener('input',ctoFandK);
+    fahrenheitInput.addEventListener('input',ftoCandK);
+    kelvinInput.addEventListener('input', ktoCandF);
+    
+}
+
+main();
